@@ -1,49 +1,56 @@
-# JavaScript
+ ## JavaScript Avançado
 
 
 
 #### Preparação
 
- [Introducao.md](Fundamentos/Preparacao/Introducao.md) 
-
- [Manual.md](Fundamentos/Preparacao/Manual.md) 
-
-[Console.md](Fundamentos/Preparacao/Console.md) 
+1. [Promessas](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+2. [ES-6](http://es6-features.org/#Constants)
+3. [Node](https://nodejs.org/en/docs/)	
+4. [NPM CLI](https://docs.npmjs.com/cli/npm)
+5. [Programação Funcional](https://medium.com/tableless/programa%C3%A7%C3%A3o-funcional-avan%C3%A7ada-monads-em-javascript-862e8588fcdf)
+6. [Um pouco mais sobre módulos](https://medium.com/trainingcenter/entendendo-m%C3%B3dulos-no-javascript-73bce1d64dbf)
 
 
 
 #### Laboratório
 
-[GrassHopper](https://learn.grasshopper.app/project/fundamentals)
 
- [01.hello-world.md](Fundamentos/Laboratorio/01.hello-world.md) 
 
- [02.interagindo_DOM.md](Fundamentos/Laboratorio/02.interagindo_DOM.md) 
+Primeira Parte
 
- [03.exercicios01.md](Fundamentos/Laboratorio/03.exercicios01.md) 
+1.  [Sites e NPM](ProgramacaoAvancada/Sites_NPM.md)
 
- [04.exercicios02.md](Fundamentos/Laboratorio/04.exercicios02.md) 
+2. [Aplicando Estilos](ProgramacaoAvancada/Estilos.md)
 
- [05.exercicios03.md](Fundamentos/Laboratorio/05.exercicios03.md) 
+3. [Linters e ESLint](ProgramacaoAvancada/Linters.md)
 
- [06.FiraCode.md](Fundamentos/Laboratorio/06.FiraCode.md) 
+4. [Programação Assíncrona](ProgramacaoAvancada/Async.md)
 
- [07.NPM.md](Fundamentos/Laboratorio/07.NPM.md) 
+5. [Módulos e Destrutores](ProgramacaoAvancada/Modulos_Destrutores.md)
 
- [08.ProjetoNPM.md](Fundamentos/Laboratorio/08.ProjetoNPM.md) 
+   
 
- [09.InstalandoPacotes.md](Fundamentos/Laboratorio/09.InstalandoPacotes.md) 
+Segunda Parte
 
- [10.Prettier.md](Fundamentos/Laboratorio/10.Prettier.md) 
+1. [Inicio](ProgramacaoAvancada/Servidor/00-Inicio.md) 
 
- [11.JSDOC.md](Fundamentos/Laboratorio/11.JSDOC.md) 
+2. [Express](ProgramacaoAvancada/Servidor/01-Express.md) 
 
- [12.Flow.md](Fundamentos/Laboratorio/12.Flow.md) 
+3. [Middlewares](ProgramacaoAvancada/Servidor/02-Middlewares.md) 
 
- [13.Classe.md](Fundamentos/Laboratorio/13.Classe.md) 
+4. [Requests](ProgramacaoAvancada/Servidor/03-Requests.md) 
 
- [14.Funcoes.md](Fundamentos/Laboratorio/14.Funcoes.md) 
+5. [StaticFiles](ProgramacaoAvancada/Servidor/04-StaticFiles.md) 
 
- [15.Axios.md](Fundamentos/Laboratorio/15.Axios.md) 
+6. [Rotas](ProgramacaoAvancada/Servidor/05-Rotas.md) 
 
- [16.Exercicio.md](Fundamentos/Laboratorio/16.Exercicio.md) 
+7. [Https](ProgramacaoAvancada/Servidor/06-https.md) 
+
+8. [Helmet](ProgramacaoAvancada/Servidor/07-helmet.md) 
+
+9. [Cors](ProgramacaoAvancada/Servidor/08-cors.md) 
+
+10. [JWT](ProgramacaoAvancada/Servidor/09-JWT.md) 
+
+11. [Consulta](ProgramacaoAvancada/Servidor/10-consulta.md) 
