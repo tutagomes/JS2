@@ -54,3 +54,9 @@ Segunda Parte
 10. [JWT](ProgramacaoAvancada/Servidor/09-JWT.md) 
 
 11. [Consulta](ProgramacaoAvancada/Servidor/10-consulta.md) 
+
+
+
+#### Mais
+
+1. [Promessas](https://developers.google.com/web/fundamentals/primers/promises?hl=pt-BR)

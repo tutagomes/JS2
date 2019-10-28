@@ -382,3 +382,21 @@ Agora é a sua vez de montar as três chamadas para as cidades, além de calcula
 
 
 > https://blog.taller.net.br/o-que-sao-promessas-javascript/
+
+
+
+
+### Problemas com Await/Async
+
+```sh
+npm install --save-dev @babel/plugin-transform-runtime
+```
+
+Adicionar ao arquivo `.babelrc` (se não existir na raiz do projeto, crie)
+
+```json
+{
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
+```
+
