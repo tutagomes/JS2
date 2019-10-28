@@ -51,7 +51,7 @@ Existem inúmeros frameworks de estilos disponíveis na internet, mas aqui lista
    ```js
    import 'materialize-css'
    import 'materialize-css/dist/css/materialize.min.css'
-   @import 'material-icons/iconfont/material-icons.scss';
+   import 'material-icons/iconfont/material-icons.scss';
    ```
 
    Um exemplo de botão:
