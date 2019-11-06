@@ -6,6 +6,8 @@ Para esta parte do treinamento, utilizaremos uma plataforma externa de exercíci
 
 Primeiro, é necessário fazer uma conta, além de ser possível autenticar com o GitHub. Desta forma, todas as linguagens serão mostradas. Como é uma plataforma gratuita, podemos utilizar da forma que desejarmos.
 
+O download da ferramenta de linha de comando pode ser feita para [Windows 64 Bits (.exe)](https://github.com/exercism/cli/releases/download/v3.0.13/exercism-windows-64bit.zip) ou se preferir para outras plataformas/arquiteturas -> https://github.com/exercism/cli/releases
+
 
 
 ### Começando
@@ -108,7 +110,7 @@ Assim, se executarmos o comando `yarn test` ou `npm run test`, temos o resultado
 
 E agora, podemos submeter para a plataforma com o comando;
 
-```SH
+```bash
 exercism submit space-age.ts
 ```
 
@@ -118,8 +120,33 @@ E o retorno deve ser uma URL, que ao acessá-la, teremos acesso a outras soluç�
 
 ## Agora de verdade
 
-Um bom programador precisa saber escolher os problemas que enfrenta. Se escolhe problemas muito acima de sua capacidade, datas limites são estouradas e o stress reina. Se escolhe problemas muito fáceis, é possível que perca o gosto. Portanto, vou deixar a escolha dos problemas "livre" contanto que sejam escolhidos:
+Um bom programador precisa saber escolher os problemas que enfrenta. Se escolhe problemas muito acima de sua capacidade, datas limites são estouradas e o stress reina. Se escolhe problemas muito fáceis, é possível que perca o interesse no projeto. Portanto, vou deixar a escolha dos problemas "livre" contanto que sejam escolhidos:
 
-- 5 Exercícios Fáceis
-- 4 Exercícios Médios
-- 2 Exercícios Difíceis
+
+
+- 4 Exercícios Fáceis
+
+  - [Two Fer](https://exercism.io/my/solutions/65887a8d2ea14e68a8181aab35123217)
+
+  - [Pangram](https://exercism.io/my/solutions/e1926bcd40e54a7187e73d4da3750e85)
+
+  - [Isogram](https://exercism.io/my/solutions/7af3e177df924e1d950624409516f8e3)
+
+  - [Leap](https://exercism.io/my/solutions/cd99e6ccf9c047658be1dabe5eb1acc8)
+
+    
+
+- 3 Exercícios Médios
+
+  - [Nucleotídeos](https://exercism.io/my/solutions/28239c7974d94311b43d245f7ff791ac)
+
+  - [Cifra Simples](https://exercism.io/my/solutions/3315579931404116965e82cc4e57ed15)
+
+  - [Grãos de Trigo no Xadrez](https://exercism.io/my/solutions/05fce8ba34524839a583068a5aeb7567)
+
+    
+
+- 1 Exercício Difícil
+
+  - [Listas](https://exercism.io/my/solutions/e69dae2434c449dfa5462d4f9f3a2067) ou [Buffer Circular](https://exercism.io/my/solutions/2246e8b593b24235ba7d3cb585d6d8c4)
+

@@ -7,7 +7,7 @@ O TypeScript tem suporte de *primeira classe* para o Node.js. Vamos começar con
 1. Configure um projeto do Node.js `package.json `  criando uma pasta e executando `npm init -y`
 2. Adicione o TypeScript (`npm install typescript --save-dev`)
 3. Adicione o `node.d.ts` (`npm install @types/node --save-dev`) - A definição do TypeScript.
-4. Inicie um `tsconfig.json` para opções do TypeScript com algumas opções-chave em seu tsconfig.json (`npx tsc --init --rootDir src --outDir lib --esModuleInterop --resolveJsonModule --lib es6, dom --module commonjs`)
+4. Inicie um `tsconfig.json` para opções do TypeScript com algumas opções-chave em seu tsconfig.json (`npx tsc --init --rootDir src --outDir dist --esModuleInterop --resolveJsonModule --lib es6,dom --module commonjs`)
 
 É isso aí! Abra seu IDE (por exemplo, `code .`) e divirta-se. Agora você pode usar todos os módulos de Node embutidos (por exemplo, `import * as fs from 'fs';`) com toda a segurança e ergonomia do desenvolvedor do TypeScript!
 
@@ -17,7 +17,7 @@ Ao final desta parte, deveremos ter uma pasta de projeto com a seguinte estrutur
 
 
 
-Todo o seu código TypeScript entra em `src` e o JavaScript gerado vai em `lib`.
+Todo o seu código TypeScript entra em `src` e o JavaScript gerado vai em `dist`.
 
 
 
@@ -59,7 +59,7 @@ Criar um módulo TypeScript é simples. Vamos assumir a seguinte estrutura de pa
 
 
 ```
-package
+Projeto
 ├─ package.json
 ├─ tsconfig.json
 ├─ src
@@ -67,8 +67,8 @@ package
 │  ├─ index.ts
 │  ├─ foo.ts
 │  └─ ...
-└─ lib
-  ├─ Todos os seus arquivos de origem
+└─ dist
+  ├─ Todos os seus arquivos de saída
   ├─ index.d.ts
   ├─ index.js
   ├─ foo.d.ts
@@ -77,9 +77,64 @@ package
 ```
 
 - Em seu arquivo `tsconfig.json`
-  - contém `compilerOptions`: `"outDir": "lib"` e `"declaration": true` - Isso indica que os resultados da compilação do código devem ser salvos na pasta lib.
+  - contém `compilerOptions`: `"outDir": "dist"` e `"declaration": true` - Isso indica que os resultados da compilação do código devem ser salvos na pasta lib.
   - contém `include: ["./src/**/*"]` - Incluindo todos os arquivos da pasta `src`
 - Em seu arquivo `package.json` contem
-  - `"main": "lib/index"` - Informa ao Node.js para carregar `lib/index.js`
-  - `"types": "lib/index"` < Informa ao TypeScript para carregar `lib/index.d.ts`
+  - `"main": "dist/index"` - Informa ao Node.js para carregar `dist/index.js`
+  - `"types": "dist/index"` < Informa ao TypeScript para carregar `dist/index.d.ts`
 
+
+
+
+
+### Utilizando TypeDoc
+
+
+
+E claro, como não podemos esquecer, agora vamos também documentar sempre o nosso código utilizando a biblioteca TypeDoc - uma versão do JSDoc para TypeScript!
+
+Para instalar, basta executar o comando:
+
+```bash
+npm install --save-dev typedoc
+```
+
+
+
+E claro, para gerar a documentação, vamos adicionar na seção script do nosso `package.json`:
+
+```json
+"docs": "typedoc ./src --out docs"
+```
+
+
+
+### Criando o primeiro Arquivo
+
+Para iniciar então nosso projeto, vamos começar criando uma pasta `src` e dentro dela um arquivo `index.ts` com o conteúdo: 
+
+```typescript
+/**
+ * Solves the Hanoi Towers puzzle, for any number of disks.
+ *
+ * @param {number} disks - How many disks to move
+ * @param {number} from - The starting pole's position
+ * @param {number} to - The destination pole's position
+ * @param {number} extra - The other pole's position
+ */
+const hanoi = (disks:number, from:number, to:number, extra:number) => {
+    if (disks === 1) {
+        console.log(`Move disk 1 from post ${from} to post ${to}`);
+    } else {
+        hanoi(disks - 1, from, extra, to);
+        console.log(`Move disk ${disks} from post ${from} to post ${to}`);
+        hanoi(disks - 1, extra, to, from);
+    }
+};
+
+console.log('teste')
+```
+
+Dessa forma, ao executarmos o comando `npm run build:live`, vamos ver o resultado no console.
+
+E se executarmos `npm run docs`, será criada uma pasta `Docs` contendo um HTML da documentação que pode ser servido ou acessado localmente.

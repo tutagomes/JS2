@@ -2,25 +2,6 @@
 
 
 
-Assuming:
-
-- you know JavaScript.
-- you know patterns and build tools (e.g. webpack) used in the project. 
-
-With that assumption out of the way, in general the process consists of the following steps:
-
-- Add a `tsconfig.json`.
-- Change your source code file extensions from `.js` to `.ts`. Start *suppressing* errors using `any`.
-- Write new code in TypeScript and make as little use of `any` as possible.
-- Go back to the old code and start adding type annotations and fix identified bugs.
-- Use ambient definitions for third party JavaScript code.
-
-Let us discuss a few of these points further.
-
-Note that all JavaScript is *valid* TypeScript. That is to say that if you give the TypeScript compiler some JavaScript -> the JavaScript emitted by the TypeScript compiler will behave exactly the same as the original JavaScript. This means that changing the extension from `.js` to `.ts` will not adversely affect your codebase.
-
-
-
 ### **Suppressing Errors**
 
 TypeScript will immediately start TypeChecking your code and your original JavaScript code *might not be as neat as you thought it was* and hence you get diagnostic errors. Many of these errors you can suppress with using `any` e.g.:
