@@ -32,7 +32,7 @@ Agora, basta apenas adicionar um novo comando na seção de scripts do `package.
   "scripts": {
     "start": "npm run build:live",
     "build": "tsc -p .",
-    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+    "build:live": "nodemon --watch src/**/*.ts --exec ts-node src/index.ts"
   },
 ```
 
