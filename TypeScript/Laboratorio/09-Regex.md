@@ -100,4 +100,8 @@ console.log(regexTelefone.test(alvo)) // true
 
 
 
-Agora que vimos um pouco sobre Regex, que tal fazermos alguns exercícios? Acesse o site do [Regex101](https://regex101.com/quiz) e complete alguns dos desafios!
+Agora que vimos um pouco sobre Regex, que tal fazermos alguns exercícios? Acesse o site do [RegexOne](https://regexone.com/)  e complete alguns dos desafios!
+
+
+
+Caso prefira exercícios mais complexos, o site [Regex101](https://regex101.com/quiz) tem o que precisa!
