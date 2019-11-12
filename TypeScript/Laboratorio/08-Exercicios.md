@@ -60,6 +60,7 @@ describe('Space Age', () => {
     const age = new SpaceAge(1000000000)
     expect(age.onEarth()).toEqual(31.69)
   })
+})
 ```
 
 Temos então que o código que devemos desenvolver, pode abrigar uma Classe `SpaceAge` que tem um construtor recebendo um `number` que indica os segundos e métodos que fazem a conversão sempre que necessário.
