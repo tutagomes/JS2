@@ -41,4 +41,11 @@
  [20.Autenticacao.md](Angular/20.Autenticacao.md) 
 
  [Final](Angular/Exercicio.md) 
+ 
+ 
+ ## Utilidades
+ 
+ [Servidor com Geração de Erros](https://github.com/tutagomes/JS2/blob/master/Angular/assets/servidor-com-geracao-erros.zip)
+ 
+ [Pacote com autenticação para sobrescrita](https://github.com/tutagomes/JS2/blob/master/Angular/assets/src-com-autenticacaoo.zip)
 
