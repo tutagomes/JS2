@@ -1,14 +1,44 @@
-# TypeScript
+## Angular "8"
 
--  [01-Inicio.md](TypeScript/Laboratorio/01-Inicio.md) 
--  [02-Tipos.md](TypeScript/Laboratorio/02-Tipos.md) 
--  [03-Interface.md](TypeScript/Laboratorio/03-Interface.md) 
--  [04-Classes.md](TypeScript/Laboratorio/04-Classes.md) 
--  [06-d.ts.md](TypeScript/Laboratorio/06-d.ts.md) 
--  [07-Testando.md](TypeScript/Laboratorio/07-Testando.md) 
--  [08-Exercicios.md](TypeScript/Laboratorio/08-Exercicios.md) 
--  [09-Regex.md](TypeScript/Laboratorio/09-Regex.md) 
--  [10-Final.md](TypeScript/Laboratorio/10-Final.md) 
+ [01.Inicio.md](Angular/01.Inicio.md) 
 
+ [02.Angular.md](Angular/02.Angular.md) 
 
+ [03.DinamicData.md](Angular/03.DinamicData.md) 
+
+ [04.Estilos.md](Angular/04.Estilos.md) 
+
+ [05.Componentes.md](Angular/05.Componentes.md) 
+
+ [06.DataBinding.md](Angular/06.DataBinding.md) 
+
+ [07.ImplementandoServer.md](Angular/07.ImplementandoServer.md) 
+
+ [08.Debug.md](Angular/08.Debug.md) 
+
+ [09.Iteradores.md](Angular/09.Iteradores.md) 
+
+ [10.CustomProperties.md](Angular/10.CustomProperties.md) 
+
+ [11.CustomEvents.md](Angular/11.CustomEvents.md) 
+
+ [12.ReferenciasLocais.md](Angular/12.ReferenciasLocais.md) 
+
+ [13.NgContent.md](Angular/13.NgContent.md) 
+
+ [14.LifeCycle.md](Angular/14.LifeCycle.md) 
+
+ [15.CustomDirective.md](Angular/15.CustomDirective.md) 
+
+ [16.CriandoPipes.md](Angular/16.CriandoPipes.md) 
+
+ [17.Servicos.md](Angular/17.Servicos.md) 
+
+ [18.Rotas.md](Angular/18.Rotas.md) 
+
+ [19.Watchers.md](Angular/19.Watchers.md) 
+
+ [20.Autenticacao.md](Angular/20.Autenticacao.md) 
+
+ [Final](Angular/Exercicio.md) 
 
