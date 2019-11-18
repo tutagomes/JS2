@@ -36,7 +36,7 @@
 
  [18.Rotas.md](Angular/18.Rotas.md) 
 
- [19.Watchers.md](Angular/19.Watchers.md) 
+ [19.Observables.md](Angular/19.Observables.md) 
 
  [20.Autenticacao.md](Angular/20.Autenticacao.md) 
 
