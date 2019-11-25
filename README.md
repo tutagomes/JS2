@@ -20,3 +20,7 @@
 
  [08-Protractor.md](CodigoTestes/08-Protractor.md) 
 
+
+### Utilitários
+
+[Servidor com Geração de Erros](https://github.com/tutagomes/JS2/blob/master/Angular/assets/servidor-com-geracao-erros.zip)
