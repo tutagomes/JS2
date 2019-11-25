@@ -150,7 +150,7 @@ app.get("/delay/:ms", (req, res) => {
   res.write('{ "message": ');
   setTimeout(() => {
     res.end('"Im alive!" }')
-  }, res.params.ms)
+  }, req.params.ms)
 })
 ```
 
