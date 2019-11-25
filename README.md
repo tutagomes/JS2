@@ -1,51 +1,22 @@
-## Angular "8"
+## Qualidade de Código e Testes
 
- [01.Inicio.md](Angular/01.Inicio.md) 
 
- [02.Angular.md](Angular/02.Angular.md) 
 
- [03.DinamicData.md](Angular/03.DinamicData.md) 
+ [00-CodeQuality.md](CodigoTestes/00-CodeQuality.md) 
 
- [04.Estilos.md](Angular/04.Estilos.md) 
+ [01-MelhoresPraticas.md](CodigoTestes/01-MelhoresPraticas.md) 
 
- [05.Componentes.md](Angular/05.Componentes.md) 
+ [02-PeerReview.md](CodigoTestes/02-PeerReview.md) 
 
- [06.DataBinding.md](Angular/06.DataBinding.md) 
+ [03-PullRequest.md](CodigoTestes/03-PullRequest.md) 
 
- [07.ImplementandoServer.md](Angular/07.ImplementandoServer.md) 
+ [04-Refatoracao.md](CodigoTestes/04-Refatoracao.md) 
 
- [08.Debug.md](Angular/08.Debug.md) 
+ [05-SonarQube.md](CodigoTestes/05-SonarQube.md) 
 
- [09.Iteradores.md](Angular/09.Iteradores.md) 
+ [06-Postman.md](CodigoTestes/06-Postman.md) 
 
- [10.CustomProperties.md](Angular/10.CustomProperties.md) 
+ [07-Jasmine.md](CodigoTestes/07-Jasmine.md) 
 
- [11.CustomEvents.md](Angular/11.CustomEvents.md) 
-
- [12.ReferenciasLocais.md](Angular/12.ReferenciasLocais.md) 
-
- [13.NgContent.md](Angular/13.NgContent.md) 
-
- [14.LifeCycle.md](Angular/14.LifeCycle.md) 
-
- [15.CustomDirective.md](Angular/15.CustomDirective.md) 
-
- [16.CriandoPipes.md](Angular/16.CriandoPipes.md) 
-
- [17.Servicos.md](Angular/17.Servicos.md) 
-
- [18.Rotas.md](Angular/18.Rotas.md) 
-
- [19.Observables.md](Angular/19.Observables.md) 
-
- [20.Autenticacao.md](Angular/20.Autenticacao.md) 
-
- [Final](Angular/Exercicio.md) 
- 
- 
- ## Utilidades
- 
- [Servidor com Geração de Erros](https://github.com/tutagomes/JS2/blob/master/Angular/assets/servidor-com-geracao-erros.zip)
- 
- [Pacote com autenticação para sobrescrita](https://github.com/tutagomes/JS2/blob/master/Angular/assets/src-com-autenticacaoo.zip)
+ [08-Protractor.md](CodigoTestes/08-Protractor.md) 
 
