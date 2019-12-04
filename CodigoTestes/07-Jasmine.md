@@ -268,7 +268,14 @@ describe('ConsultaService', () => {
 
 ```
 
+Notação SPY
 
+```
+  spyOn(someObj, 'func').withArgs(1, 2, 3).and.returnValue(42);
+  someObj.func(1, 2, 3); // returns 42
+  
+```
+https://jasmine.github.io/2.0/introduction
 
 ### Exercício
 
