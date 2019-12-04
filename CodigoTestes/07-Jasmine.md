@@ -268,14 +268,26 @@ describe('ConsultaService', () => {
 
 ```
 
-Notação SPY
 
-```
+
+Notação Spy
+
+```js
   spyOn(someObj, 'func').withArgs(1, 2, 3).and.returnValue(42);
   someObj.func(1, 2, 3); // returns 42
-  
+  expect(someObj.func).toHaveBeenCalled();
+
+	spyOn(someObj, "setBar").and.throwError("quux");
+	expect(function() {someObj.setBar(123)}).toThrowError("quux");
+
+	spyOn(someObj, 'getFoo').and.callFake(function(){
+          console.log('in the future');
+          return 'Winter';
+        });
 ```
 https://jasmine.github.io/2.0/introduction
+
+
 
 ### Exercício
 
